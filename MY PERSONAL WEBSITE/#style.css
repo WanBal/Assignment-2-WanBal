@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* Baby Blue */
+  color: #000033; /* Dark Navy text */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #001f4d; /* Navy Blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #003366; /* Deeper Navy */
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #e0f7fa; /* Baby Blue */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #001f4d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+}
+
+
+ }
+}
+footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.4);
+      color: #ddd;
+    }
+
+
+
+
+
+
+
+
