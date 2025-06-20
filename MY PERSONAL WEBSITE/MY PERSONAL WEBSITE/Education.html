@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Education Timeline</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body, html {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(270deg, #001f4d, #0a74da);
+      background-size: 400% 400%;
+      animation: moveBackground 15s ease infinite;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    @keyframes moveBackground {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .w3-bar {
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+    }
+
+    .w3-bar a {
+      color: #fff;
+    }
+
+    .timeline-section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    .timeline-section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 32px;
+    }
+
+    .edu-category {
+      margin-bottom: 60px;
+    }
+
+    .edu-category h3 {
+      border-left: 5px solid #0af;
+      padding-left: 12px;
+      margin-bottom: 20px;
+      color: #0af;
+    }
+
+    .edu-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .edu-card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 15px;
+      border-radius: 12px;
+      width: 250px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+
+    .edu-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .edu-card img, .edu-card video {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .edu-card p {
+      font-size: 14px;
+      color: #e0f6ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.4);
+      color: #ddd;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card" id="myNavbar">
+    <a href="Index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+    <a href="Biodata.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-id-card"></i> BIODATA</a>
+    <a href="Experience.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-briefcase"></i> EXPERIENCE</a>
+    <a href="Education.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-graduation-cap"></i> EDUCATION</a>
+    <a href="Family.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> FAMILY</a>
+    <a href="Gallery.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-image"></i> GALLERY</a>
+  </div>
+</div>
+
+<!-- Education Timeline Section -->
+<div class="timeline-section">
+  <h2>📚 My Education Journey</h2>
+
+  <div class="edu-category">
+    <h3>📘 Primary School</h3>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <img src="Images/myheroin.jpg" alt="Sekolah Rendah">
+        <p>SK Banggu | Tahun 1-6 (2011 - 2016)</p>
+      </div>
+      <div class="edu-card">
+        <video controls>
+          <source src="Video/SKB.mp4" type="video/mp4">
+        </video>
+        <p>MEMORY SKB</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="edu-category">
+    <h3>📙 High school</h3>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <img src="Images/SMUAY1.jpg" alt="Sekolah Menengah">
+        <p>SMU(A) Al-YUNUSIAH| Tingkatan 1-5 (2015 - 2019)</p>
+      </div>
+      <div class="edu-card">
+        <video controls>
+          <source src="Video/SMUAY.mp4" type="video/mp4">
+        </video>
+        <p>Program Kepimpinan Pelajar</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="edu-category">
+    <h3>📗 Pre-university STPM</h3>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <img src="Images/STPM1.jpg" alt="STPM">
+        <p>PRA-UNIVERSITI SMK Long Yunus | 2021 - 2024</p>
+      </div>
+      <div class="edu-card">
+        <video controls>
+          <source src="Video/STPM.mp4" type="video/mp4">
+        </video>
+        <p>EID MUBARAK 6HAMKA</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="edu-category">
+    <h3>🎓 Universiti</h3>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <img src="Images/TMI.jpg" alt="UniMAP">
+        <p>Universiti Malaysia Perlis (UniMAP)<br>Bachelor degree in Interactive Media Technology | 2024</p>
+      </div>
+      <div class="edu-card">
+        <video controls>
+          <source src="Video/UNILIFE.mp4" type="video/mp4">
+        </video>
+        <p>My Journey With My friends</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Balqis | SMT10503 - Web Design and Development<br>
+  Universiti Malaysia Perlis (UniMAP)
+</footer>
+
+</body>
+</html>
